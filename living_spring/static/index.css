@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #d7cbcb;
 }
 
 .container {
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar {
-  background-color: #07750d;
+  background-color: #1ab8ed;;
   color: #fff;
   padding: 10px 0;
 }
@@ -22,6 +22,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 
 .navbar .logo h1 {
@@ -60,6 +61,12 @@ body {
   text-align: center;
 }
 
+.section h2 {
+  margin: 0;
+  font-size: 36px;
+  color: #1ab8ed;
+}
+
 .checkbox-group {
   display: flex;
   align-items: center;
@@ -70,8 +77,10 @@ body {
 }
 
 footer {
-  background-color: #07750d;
-  color: #fff;
+  background-color: #1ab8ed;
+  color: hsl(0, 0%, 100%);
   text-align: center;
-  padding: 20px 0;
+  padding: 0px 0;
+  font-family: sans-serif;
+  font-weight: bold;
 }

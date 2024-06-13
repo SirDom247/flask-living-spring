@@ -1,0 +1,27 @@
+{% extends "layouts.html" %}
+
+{% block title %}Sign Up{% endblock %}
+
+{% block content %}
+<div class="signup-form">
+    <h5>Sign Up</h5>
+    <form action="submit" method="POST">
+        <label for="fname">Firstname</label>
+        <input type="text" name="fname" id="fname" placeholder="Your firstname" required> <br>
+        
+        <label for="lname">Lastname</label>
+        <input type="text" name="lname" id="lname" placeholder="Your lastname" required> <br>
+
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Your username" required><br>
+        
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Your email here" required><br>
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" placeholder="your password" min="8" max="20" required>
+        
+        <input type="submit" value="Signup" class="reg-btn" id="reg-btn">
+    </form>   
+</div>
+{% endblock %}

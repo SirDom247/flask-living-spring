@@ -1,27 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Living Spring</title>
-    <link rel="stylesheet" href="/static/index.css">
-</head>
-<body>
-    <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <h1>Spring Bank</h1>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#services">Self Services</a></li>
-                <li><a href="#contact">Contact Online Support</a></li>
-                <li><a href="/register">Open Account</a></li>
-                <li><a href="/login">Login</a></li>
-            </ul>
-        </div>
-    </nav>
+{% extends 'layouts.html' %}
 
+{% block title %}
+    Home
+{% endblock title %}
+{% block content %}
     <section id="home" class="section">
         <div class="container">
             <h2>Welcome to Spring International Bank</h2>
@@ -55,5 +37,6 @@
             <p>&copy; 2024 Living Spring International Bank. <br> All rights reserved.</p>
         </div>
     </footer>
-</body>
-</html>
+
+{% endblock content %}
+     
